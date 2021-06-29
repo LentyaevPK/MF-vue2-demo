@@ -1,9 +1,9 @@
 {
-  "name": "main",
+  "name": "card1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --skip-plugins eslint",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
@@ -13,7 +13,8 @@
     "vue": "^2.6.11",
     "vue-router": "^3.5.1",
     "vuetify": "^2.4.0",
-    "vuex": "^3.6.2"
+    "vuex": "^3.6.2",
+    "@my-prj/myfunc": "1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
