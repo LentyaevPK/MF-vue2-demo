@@ -1,5 +1,5 @@
 {
-  "name": "@lentayevpk/myfunc",
+  "name": "myfunc",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,6 @@
   "license": "ISC",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "repository": "https://github.com/LentyaevPK/MF-vue2-demo"
 }
