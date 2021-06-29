@@ -1,9 +1,12 @@
 {
-  "name": "@my-prj/myfunc",
+  "name": "@lentayevpk/myfunc",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

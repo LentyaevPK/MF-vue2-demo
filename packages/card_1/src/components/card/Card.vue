@@ -77,6 +77,8 @@
 </template>
 
 <script>
+import myfunc from '@my-prj/myfunc'
+
 export default {
   name: 'Card',
   data: () => ({
@@ -86,9 +88,7 @@ export default {
 
   methods: {
     reserve () {
-      this.loading = true
-
-      setTimeout(() => (this.loading = false), 2000)
+      myfunc()
     },
   },
 }
